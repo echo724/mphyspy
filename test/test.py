@@ -1,9 +1,9 @@
-from matrix import ma
-from quantum import atom
-from quantum import constants
-from quantum import quantum
-from quantum import schrodinger
-from srelativity import srelativity
+from mphyspy.matrix import ma
+from mphyspy.quantum import atom
+from mphyspy.quantum import constants
+from mphyspy.quantum import quantum
+from mphyspy.quantum import schrodinger
+from mphyspy.srelativity import srelativity
 
 def test():
     ma.test()
