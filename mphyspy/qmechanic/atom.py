@@ -1,5 +1,5 @@
 #mphyspy/quantum/atom.py
-import mphyspy.quantum.constants as ct
+import mphyspy.qmechanic.constants as ct
 import numpy as np
 
 def test():

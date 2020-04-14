@@ -1,7 +1,7 @@
 #mphyspy/quantum/schrodinger.py
 import scipy.integrate as integrate
 import numpy as np
-import mphyspy.quantum.constants as ct
+import mphyspy.qmechanic.constants as ct
 
 def test():
     print("This is schrodinger module test")
