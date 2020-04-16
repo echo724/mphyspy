@@ -1,8 +1,8 @@
-from mphyspy.matrix import ma
-from mphyspy.qmechanic import atom
-from mphyspy.qmechanic import constants
-from mphyspy.qmechanic import quantum
-from mphyspy.qmechanic import schrodinger
-from mphyspy.srelativity import srelativity
+from mphyspy.matrix import matrix as mt
+from mphyspy.qmechanic import atom as at
+from mphyspy.qmechanic import constants as ct
+from mphyspy.qmechanic import quantum as qt
+from mphyspy.qmechanic import schrodinger as sd
+from mphyspy.srelativity import srelativity as sr
 
 print("Modules loaded")
