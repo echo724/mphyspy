@@ -1,5 +1,4 @@
 -e git+https://github.com/eunchan1001/mphyspy.git@3912a8a31ea52d17bc1362842928684bc9a01c4e#egg=mphyspy
 mpmath==1.1.0
 numpy==1.18.2
-scipy==1.4.1
 sympy==1.5.1

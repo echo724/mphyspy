@@ -1,5 +1,5 @@
 #mphyspy/quantum/schrodinger.py
-import scipy.integrate as integrate
+import sympy as sy
 import numpy as np
 import mphyspy.qmechanic.constants as ct
 
@@ -8,7 +8,8 @@ def test():
 
 #Schrodinger's Probability Function
 def prob(function,a,b):
-    prob = integrate.quad(function,a,b)
+    x = sy.Symbol('x')
+    prob = sy.integrate(function, (x, a,b))
     return prob
 
 #Return uncertainty when one of values is given
