@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     readme = f.read()
 
 setup(name='mphyspy',
-      version='0.1.8',
+      version='0.1.8.1',
       description='library for calculating college modern physics',
       long_description=readme,
       long_description_content_type="text/markdown",

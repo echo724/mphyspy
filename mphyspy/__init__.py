@@ -6,10 +6,8 @@ from mphyspy.qmechanic import schrodinger as sd
 from mphyspy.srelativity import srelativity as sr
 import sympy as sy
 import numpy as np
+from sympy.abc import x,r,a
+from sympy import oo
 
-#define letter variables
-x = sy.Symbol('x')
-r = sy.Symbol('r')
-a = sy.Symbol('a')
 
 print("Modules loaded")

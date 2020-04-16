@@ -5,6 +5,8 @@ __pycache__/
 
 mphyspy.egg-info
 
+*.ipynb
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

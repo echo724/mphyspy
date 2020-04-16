@@ -9,13 +9,31 @@ def test():
 #get Schrodinger wave function in 1D
 def wavefunction(L,n):
     x = sy.Symbol('x')
-    f=sy.sqrt(L/2)*sy.sin(n*sy.pi*x/L)
+    f=sy.sqrt(2/L)*sy.sin(n*np.pi*x/L)
     return f
+
+def normalize(f):
+    nf=r**2*np.abs(f)**2
+    return nf
+
+#average radius of 3D Schrodinger Equation
+def ave_radius(f):
+    r = sy.Symbol('r')
+    a = sy.Symbol('a')
+    ave= sy.integrate(r*normalzie(f),(r,0,sy.oo))
+    return ave
+
+def prob_radius(f,b,c):
+    r = sy.Symbol('r')
+    a = sy.Symbol('a')
+    prob = sy.integrate(normalize(f),(x,b,c))
+    return prob
 
 #Schrodinger's Probability Function
 def prob(function,a,b):
     x = sy.Symbol('x')
-    prob = sy.integrate(function, (x, a,b))
+    normal = np.abs(function)**2
+    prob = sy.integrate(normal, (x, a,b))
     return prob
 
 #Return uncertainty when one of values is given
