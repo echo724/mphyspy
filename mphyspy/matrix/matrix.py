@@ -17,7 +17,7 @@ def new():
             while count_column < col:
                 print('Index: ',count_row + 1,count_column + 1)
                 c = input('components ')
-                if c is '':
+                if c == '':
                     malfunction = True
                     break
                 elif isinstance(c,str):
@@ -46,7 +46,7 @@ def new(i,j):
             while count_column < col:
                 print('Index: ',count_row + 1,count_column + 1)
                 c = input('components ')
-                if c is '':
+                if c == '':
                     malfunction = True
                     break
                 elif isinstance(c,str):
@@ -81,7 +81,7 @@ def ran(num):
             s += coeff[count]*vector
         print(s)
         sentinel = int(input('Enter "-1" to terminate(if not Enter) '))
-        if sentinel is -1:
+        if sentinel == -1:
             break
 #sol is solution of equation of determinant matrix for eigenvalues
 #which is charateristic equation
