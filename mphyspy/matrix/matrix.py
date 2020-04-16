@@ -34,7 +34,7 @@ def new():
             continue
         else:
             return sy.Matrix(M)
-def new(i,j):
+def matrix(i,j):
     row = i
     col = j
     while True:
