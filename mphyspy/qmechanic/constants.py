@@ -31,3 +31,12 @@ g=2.002319
 
 #bohr radius in m
 bohr_r=0.0529*10**-9
+
+#energy equivalent(eV)
+#electron
+elect_e=511*10**3
+#proton_m
+proton_e=938*10**6
+
+#hc value(eV*nm)
+hc=1240

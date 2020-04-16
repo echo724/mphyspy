@@ -6,6 +6,12 @@ import mphyspy.qmechanic.constants as ct
 def test():
     print("This is schrodinger module test")
 
+#get Schrodinger wave function in 1D
+def wavefunction(L,n):
+    x = sy.Symbol('x')
+    f=sy.sqrt(L/2)*sy.sin(n*sy.pi*x/L)
+    return f
+
 #Schrodinger's Probability Function
 def prob(function,a,b):
     x = sy.Symbol('x')
