@@ -1,9 +1,6 @@
 # MphysPy
 
-[https://img.shields.io/badge/pypi-v0.1.8.1-blue](https://img.shields.io/badge/pypi-v0.1.8.1-blue)
-
-[https://img.shields.io/badge/license-MIT-green](https://img.shields.io/badge/license-MIT-green)
-
+[![PyPI version](https://badge.fury.io/py/mphyspy.svg)](https://badge.fury.io/py/mphyspy)
 [![Run on Repl.it](https://repl.it/badge/github/eunchan1001/mphyspy)](https://repl.it/github/eunchan1001/mphyspy)
 
 MphyPy is a Python3 library for calculating college level modern physics problems
