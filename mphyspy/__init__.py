@@ -10,4 +10,4 @@ from sympy.abc import x,r,a
 from sympy import oo
 
 
-print("Modules loaded")
+print("modules loaded successfully")
