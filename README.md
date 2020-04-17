@@ -31,6 +31,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install mphyspy
     >>>from mphyspy import *
     modules loaded successfully
     >>>ct.g
+    #finestructure constant
     2.002319
 ```
 ## Contributing
