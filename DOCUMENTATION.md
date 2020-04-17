@@ -2,12 +2,8 @@
 
 ## Matrix
 
----
 
 ## Qmechenic
 
----
 
 ## Srelativity
-
----
