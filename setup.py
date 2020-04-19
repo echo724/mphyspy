@@ -15,7 +15,6 @@ setup(
       author='eunchan1001',
       author_email='eunchan1001@gmail.com',
       license='MIT',
-      install_requires=install_requires,
       packages=find_packages(),
       classifiers=[
           "License :: OSI Approved :: MIT License",
