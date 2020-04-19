@@ -2,7 +2,7 @@ build: clean
 	git add .
 	git commit -m 'Update setup'
 	git push
-	python setup.py sdist bdist_wheel
+	python setup.py bdist_wheel
 
 release: build
 	python -m twine upload dist/*

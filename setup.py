@@ -15,12 +15,12 @@ install_requires = [str(ir.req) for ir in reqs]
 
 setup(
       name='mphyspy',
-      version='0.1.9.2',
+      version='0.1.9.3',
       description='Python3 library for calculating college modern physics',
       long_description=readme,
       long_description_content_type="text/markdown",
       url='https://github.com/eunchan1001/mphyspy.git',
-      author='Eunchan Cho',
+      author='eunchan1001',
       author_email='eunchan1001@gmail.com',
       license='MIT',
       install_requires=install_requires,
