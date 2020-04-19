@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-git commit -m 'Update Readme.md'
+git commit -m 'Update atom.py'
 git push
 
 rm -rf dist build mphyspy.egg-info
