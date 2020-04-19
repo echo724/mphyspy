@@ -2,10 +2,10 @@ build: clean
 	git add .
 	git commit -m 'Update setup'
 	git push
-	python3 setup.py sdist bdist_wheel
+	python setup.py sdist bdist_wheel
 
 release: build
-	twine upload -s dist/*
+	python -m twine upload dist/*
 
 clean:
 	find . -name "*.pyc" -print0 | xargs -0 rm -rf
