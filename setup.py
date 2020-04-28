@@ -2,9 +2,9 @@ from setuptools import find_packages, setup
 import setuptools
 
 try:
-    from pip3._internal.req import parse_requirements
+    from pip._internal.req import parse_requirements
 except ImportError:
-    from pip3.req import parse_requirements
+    from pip.req import parse_requirements
 
 # Read in the README for the long description on PyPI
 with open('README.md', 'r', encoding='utf-8') as f:
@@ -15,7 +15,7 @@ install_requires = [str(ir.req) for ir in reqs]
 
 setup(
       name='mphyspy',
-      version='0.1.9.8',
+      version='0.1.9.9',
       description='Python3 library for calculating college modern physics',
       long_description=readme,
       long_description_content_type="text/markdown",
