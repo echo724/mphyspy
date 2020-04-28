@@ -43,3 +43,6 @@ hc=1240
 
 #coulomb's constant
 ke=8.987551787*10**9
+
+#boltzbam constant
+kb=1.38*10**-23
