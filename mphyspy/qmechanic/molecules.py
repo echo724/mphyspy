@@ -39,7 +39,7 @@ class MS():
     def e(self):
         return self.ev+self.el
 
-m = mc.MS()
+m = MS()
 
 def ave_e(T):
     e = 3/2*ct.kb*T
