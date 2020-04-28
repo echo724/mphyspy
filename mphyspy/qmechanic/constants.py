@@ -40,3 +40,6 @@ proton_e=938*10**6
 
 #hc value(eV*nm)
 hc=1240
+
+#coulomb's constant
+ke=8.987551787*10**9
