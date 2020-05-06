@@ -1,6 +1,6 @@
 build: clean
 	git add .
-	git commit -m 'Update srelativity'
+	git commit -m 'Add conversion'
 	git push
 	python setup.py bdist_wheel
 

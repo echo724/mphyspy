@@ -112,13 +112,6 @@ def event(x,y):
     M[1] = y
     return sy.Matrix(M)
 
-def am(kg):
-    u = 1.66 * pow(10,-27)
-    return kg/u
-
-def Mev(u):
-    c_sq = 931.5
-    return c_sq * u
 
 def beta(gamma):
     return sy.sqrt(abs(1 - 1/pow(gamma,2)))

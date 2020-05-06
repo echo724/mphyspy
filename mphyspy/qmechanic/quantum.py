@@ -55,11 +55,3 @@ def bohr(n1,n2):
     print(N[n1]-N[n2])
     l = 1240/(N[n1]-N[n2])
     return l
-
-#Converters
-#J to eV
-def ev(joul):
-    return joul/(1.602176634*pow(10,-19))
-#eV to J
-def joul(ev):
-    return 1.602176634*pow(10,-19)*ev

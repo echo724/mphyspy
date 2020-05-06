@@ -5,6 +5,7 @@ from mphyspy.qmechanic import quantum as qt
 from mphyspy.qmechanic import schrodinger as sd
 from mphyspy.srelativity import srelativity as sr
 from mphyspy.qmechanic import molecules as mc
+from mphyspy.qmechanic import conversion as cv
 import sympy as sy
 import numpy as np
 from sympy.abc import x,r,a

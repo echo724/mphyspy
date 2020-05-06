@@ -2,7 +2,7 @@ import sympy as sy
 import numpy as np
 import mphyspy.qmechanic.constants as ct
 
-class MS():
+class Molecule():
     def __init__(self):
         r_0 = 0
         cm = 0
@@ -32,14 +32,14 @@ class MS():
         self.w = np.sqrt(k/cm)
         return w
 
-    def ev(self,v,k):
+    def ev(self,v):
         self.ev = (v+1/2)*ct.hbar*self.w
         return self.ev
 
     def e(self):
         return self.ev+self.el
 
-m = MS()
+m = Molecule()
 
 def ave_e(T):
     e = 3/2*ct.kb*T
