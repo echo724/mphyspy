@@ -16,8 +16,8 @@ install_requires = [str(ir.req) for ir in reqs]
 
 setup(
       name='mphyspy',
-      version='0.2.1',
-      description='Python3 library for calculating college modern physics',
+      version='0.2.2',
+      description='Python3 library for calculating college-level modern physics',
       long_description=readme,
       long_description_content_type="text/markdown",
       url='https://github.com/eunchan1001/mphyspy.git',

@@ -1,3 +1,7 @@
+from mphyspy import test
+
+test.check()
+
 #mphyspy/quantum/constants.py
 import numpy as np
 #Constants
@@ -15,22 +19,26 @@ hbar = h / (2*np.pi)
 elect_q = - 1.60217662*pow(10,-19)
 
 #mass of electron in kg
-elect_m = 9.1093837015*pow(10,-31)
+elect_kg = 9.1093837015*pow(10,-31)
 #mass of electron in atomic mass u
 elect_u = 5.48579909070*10**-4
 
 #mass of proton in kg
-proton_m = 1.672623*pow(10,-27)
+proton_kg = 1.672623*pow(10,-27)
 #mass of proton in u
 proton_u = 1.007276466621
+#in Mev
+proton_Mev = 0.9382720813*10**3
 
 #speed of light in m/s
 c = 2.99792458*pow(10,8)
 
 #mass of neutron in kg
-neutron_m = 1.674929*pow(10,-27)
+neutron_kg = 1.674929*pow(10,-27)
 # mass of neutron in u
 neutron_u = 1.008665
+# in Mev
+neutron_Mev=0.9395654133*10**3
 
 # mass of hydrogen in u
 hydrogen_u=1.00782503207
@@ -55,3 +63,18 @@ ke=8.987551787*10**9
 
 #boltzbam constant
 kb=1.38*10**-23
+
+##Particles(Gev)
+#Muon
+mu=0.105658
+
+#Pion
+pi_0=0.134977
+pi_p=0.13957061
+pi_n=0.13957061
+
+#electron
+elect_Gev=5.109989461*10**-4
+
+#light-year(m)
+ly=9.46*10**15

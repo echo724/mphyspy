@@ -1,3 +1,6 @@
+from mphyspy import test
+
+test.check()
 
 #change mass(u) to binding energy(Mev)
 def u_to_Mev(u):

@@ -1,6 +1,9 @@
 import sympy as sy
 import numpy as np
-import mphyspy.qmechanic.constants as ct
+import mphyspy.tool.constants as ct
+from mphyspy import test
+
+test.check()
 
 class Molecule():
     def __init__(self):

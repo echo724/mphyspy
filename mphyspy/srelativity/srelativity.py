@@ -1,5 +1,9 @@
 #mphyspy/srelativity/srelativity.py
 import sympy as sy
+from mphyspy import test
+
+test.check()
+
 def test():
     print("This is srelativity module test")
 

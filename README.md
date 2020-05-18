@@ -12,10 +12,6 @@ To use mphyspy, these packages are required
 - [sympy](https://www.sympy.org/en/index.html)
 - [numpy](https://numpy.org)
 
-## Documentation
-
-[Documentation](DOCUMENTATION.md)
-
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install mphyspy.

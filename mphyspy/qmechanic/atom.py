@@ -1,9 +1,9 @@
 #mphyspy/quantum/atom.py
-import mphyspy.qmechanic.constants as ct
+import mphyspy.tool.constants as ct
 import numpy as np
+from mphyspy import test
 
-def test():
-    print("This is atom module test")
+test.check()
 
 def states(n):
     total = 0

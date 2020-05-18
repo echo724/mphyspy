@@ -1,6 +1,6 @@
 build: clean
 	git add .
-	git commit -m 'Add conversion'
+	git commit -m 'Update'
 	git push
 
 release: build

@@ -1,10 +1,10 @@
 #mphyspy/quantum/schrodinger.py
 import sympy as sy
 import numpy as np
-import mphyspy.qmechanic.constants as ct
+import mphyspy.tool.constants as ct
+from mphyspy import test
 
-def test():
-    print("This is schrodinger module test")
+test.check()
 
 #get Schrodinger wave function in 1D
 def wavefunction(L,n):

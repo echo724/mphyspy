@@ -1,5 +1,5 @@
-import mphyspy.qmechanic.constants as ct
-import mphyspy.qmechanic.conversion as cv
+import mphyspy.tool.constants as ct
+import mphyspy.tool.conversion as cv
 import numpy as np
 import sympy as sy
 

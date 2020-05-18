@@ -1,8 +1,8 @@
 #mphyspy/quantum/quantum.py
 import numpy as np
+from mphyspy import test
 
-def test():
-    print("This is quantum module test")
+test.check()
 
 #return momentum
 def momentum(v,m,l):

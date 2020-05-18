@@ -1,9 +1,9 @@
 #mphyspy/matrix/ma.py
 import sympy as sy
 from sympy import sqrt
+from mphyspy import test
 
-def test():
-    print("This is ma module test")
+test.check()
 
 def new():
     while True:
