@@ -40,8 +40,11 @@ neutron_u = 1.008665
 # in Mev
 neutron_Mev=0.9395654133*10**3
 
-# mass of hydrogen in u
+# mass of hydrogen(u)
 hydrogen_u=1.00782503207
+
+#mass of Helium(u)
+helium_u = 4.002603
 
 #fine structure constant
 g=2.002319
@@ -78,3 +81,15 @@ elect_Gev=5.109989461*10**-4
 
 #light-year(m)
 ly=9.46*10**15
+
+#Solar System mass
+#Solar mass(kg)
+sm = 1.98847*10**30
+#Earth mass(kg)
+em = 5.972*10**24
+
+#Earth radius(km)
+er = 6371
+
+#Wein's Law Constant(m*K)
+wl = 2.898*10**-3

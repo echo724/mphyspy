@@ -33,3 +33,19 @@ def decay_const(t):
 def decay(n0,t_half,t):
     N = n0*np.exp(-decay_const(t_half)*t)
     return N
+
+def reaction_energy(i,f):
+    Q = cv.u_to_Mev(i-f)
+    return Q
+
+def alpha_decay(i,f):
+    Q = cv.u_to_Mev(i-(f+ct.helium_u))
+    return Q
+
+def half_life(t):
+    decay_rate = np.log(2)/t
+    return decay_rate
+
+def remaining_nuclei(N0,dr,t):
+    N = N0*np.exp(-dr*t)
+    return N

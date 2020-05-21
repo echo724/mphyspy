@@ -47,3 +47,19 @@ m = Molecule()
 def ave_e(T):
     e = 3/2*ct.kb*T
     return e
+
+def N(n):
+    N = 2*(1/8)*((4/3)*np.pi*n**3)
+    return N
+
+def fermi_energy(m,N,L):
+    Ef=ct.h**2/(8*m)*(3*N/(np.pi*L**3))**(2/3)
+    return Ef
+
+def average_energy(Ef):
+    ave_e = 3/5*Ef
+    return ave_e
+
+def fermi_dirac_dist(E,Ef,T):
+    f = 1/(np.exp((E-Ef)/(ct.kb*T))+1)
+    return f
